@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Games - Inicio Sesión</title>
+    <link rel="icon" href="imagenes/icono.ico">
+
+    <link rel="reset-stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+
+        <div class="contenedor1">
+            <img class="icono-principal" src="imagenes/juego-de-mesa.png" alt="Juego de mesa Icono">   
+        </div>
+        
+        <div class="contenedor2">
+            <div class="iconos-redes">
+                <a href=""><img src="imagenes//redes/instagram.png" alt="instagram icono"></a>
+                <a href=""><img src="imagenes/redes/facebook.png" alt="facebook icono"></a>
+                <a href=""><img src="imagenes/redes/tik-tok.png" alt="tik-tok icono"></a>
+            </div>
+
+            <div class="iconos-redes">
+                <a href="log.html"><img src="imagenes//redes/icono-persona.png" alt="Icono Login"></a>
+                <a href=""><img src="imagenes//redes/icono-carrito.png" alt="Icono carrito"></a>
+            </div>
+
+            <nav>
+                <a href="home.html"><h2>INICIO</h2></a>
+                <a href="torenos.html"><h2>TORNEOS</h2></a>
+                <a href="informacion.html"><h2>INFORMACION</h2></a>
+                <a href="contacto.html"><h2>CONTACTOS</h2></a>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div class="contenedor-global">
+
+            <section class="titulo">
+                <h2>Iniciar Sesión</h2> 
+            </section>
+
+            <div class="formulario">
+
+                <form class="datos">
+                    <input type="text" placeholder="Correo Electronico" class="correoInicio" required>
+                    <input type="password" placeholder="Contraseña" class="passwordInicio" required>
+                </form>
+
+                <p><a href="recuperarPassword.html">¿Olvidate la contraseña?</a></p>
+
+                <button class="inicio-sesion" onclick="iniciarSesion(), validacion()" >INICIAR SESIÓN</button>
+
+                <p>¿No tenés cuenta?<a href="crearCuenta.html">Crear cuenta</a></p>
+            </div>
+        </div>
+        
+        
+
+    </main>
+    <footer>
+        <div class="barra-suscribir">
+            <h1>Suscríbete</h1>
+            <h3>Enterate de todas las novedades y ofertas!!</h3>
+            <h2>Email: <input type="email" placeholder="Ingresa tu email: " class="input-footer"></h2>
+        </div>
+        <div class="footer-2">
+
+            <div class="informacion-footer">
+                <h2>Información:</h2>
+                <a href="informacion.html#info-compra"><h3>¿Cómo comprar?</h3></a>
+                <a href="informacion.html#devolucion"><h3>Devoluciones</h3></a>
+                <a href="informacion.html#preguntas"><h3>Preguntas Frecuentes</h3></a>
+                <a href="informacion.html#info-grupo"><h3>¿Quienes somos?</h3></a>
+            </div>
+
+            <div class="pagos-footer">
+                <h2>Medios de pagos:</h2>
+
+                <div class="img-footer">
+
+                    <img src="imagenes/tarjetasEnvios/MC.jpg" alt="Logo Mastercard">
+                    <img src="imagenes/tarjetasEnvios/visa.jpg" alt="Logo Visa">
+                    <img src="imagenes/tarjetasEnvios/naranja.jpg" alt="Logo Naranja">
+                    <img src="imagenes/tarjetasEnvios/pago-facil-logo.jpg" alt="Logo Pago facil">
+                    <img src="imagenes/tarjetasEnvios/rapipago.jpg" alt="Logo Rapipago">
+                    <img src="imagenes/tarjetasEnvios/mercadopago.jpg" alt="Logo Mercado pago"> 
+
+                </div>
+                
+            </div>
+
+            <div class="envios-footer">
+                <h2>Envíos:</h2>
+
+                <div class="img-footer">
+                    <img src="imagenes/correo/correo-arg.jpg" alt="Logo Corre Argentino">
+                    <img src="imagenes/correo/PICKIT.png" alt="Logo Pickit">
+                    <img src="imagenes/correo/dhl.jpg" alt="Logo DHL">
+                    <img src="imagenes/correo/fedex.jpg" alt="Logo fedex">
+                </div>
+               
+            </div>
+
+            <div class="informacion-footer">
+                <h2>Contacto:</h2>
+                <h3>+5438652345</h3>
+                <h3><a href="mailto:contactojuegos@gmail.com">contactojuegos@gmail.com</a></h3>
+                <img src="imagenes//redes/facebook.png" alt="Logo Facebook">
+                <img src="imagenes//redes/instagram.png" alt="Logo instagram">
+                <img src="imagenes//redes/tik-tok.png" alt="Logo Tiktok">
+                <img src="imagenes//redes/whatsapp.png" alt="Logo Whatsapp">
+
+            </div>
+        </div>
+        <div class="copyR">
+            <p>&copy; Derechos reservados. Codo a Codo-Fullstack Python Grupo 15.</p>
+        </div>
+    </footer>
+    <script src="JS/login.js"></script>
+</body>
+</html>
